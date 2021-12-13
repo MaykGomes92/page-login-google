@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,500&display=swap');
+
+:root{
+    --font-roboto:'Roboto', sans-serif;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.total{
+    display: grid;
+    width: 448px;
+    height: 959;
+    border: 1px solid #DADCE0;
+    border-radius: 10px;
+    padding-bottom: 85px;
+    margin-top: 40px;
+}
+
+/*PARTE 1 TEXTO*/
+
+.total .parte1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 44px;
+    padding-bottom: 24px;
+}
+
+.parte1 #loginf{
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: rgb(32,33,36);
+}
+
+.parte1 p{
+    font-size: 17px;
+    color: #8a8b8d;
+    padding-bottom: 15px;
+    font-family: var(--font-roboto);
+}
+
+.parte1 h2 span{
+    font-family: var(--font-roboto);
+    font-weight: 100;
+    font-size: 24px;
+}
+
+#l1{
+    color: #4285F4;
+}
+
+#l2{
+    color: #EA4335;
+}
+
+#l3{
+    color: #FBBC05;
+}
+
+#l4{
+    color: #4285F4;
+}
+
+#l5{
+    color: #34A853;
+}
+
+#l6{
+    color: #EA4335;
+}
+
+
+.div-form{
+    position: relative;
+    width: 380px;
+    margin: auto;
+    margin-bottom: 110px; 
+}
+
+.div-form input{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    padding: 10px;
+    outline: none;
+    background: none;
+    border: 1px solid #DADCE0;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+.div-form label{
+    position: absolute;
+    top: 1.2rem;
+    left: .9rem;
+    transition: all .2s ease-in-out;
+    background-color: #fff;
+    z-index: 55;
+    font-family: var(--font-roboto);
+    color: #8a8b8d;
+}
+
+.div-form h2{
+    font-family: var(--font-roboto);
+    font-weight: 500;
+    letter-spacing: .25px;
+    font-size: 15px;
+    text-align: left;
+    color: #1a73e8;
+    position: absolute;
+    top: 4.2rem;
+    cursor: pointer;
+}
+
+.div-form input:focus{
+    border: 2px solid #1a73e8;
+}
+
+.div-form #ip1:focus ~ label,
+.div-form #ip1:valid ~ label{
+    z-index: 33;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: #fff;
+    top: -.5rem;
+    font-size: 12px;
+    color: #1a73e8;
+}
+
+/*---PARTE 2----*/
+
+.parte2{
+    margin: 0 auto;
+    width: 380px;
+    padding-top: 20px;
+    color: #5f6368cc;
+    font-size: 14px;
+    font-family: var(--font-roboto);
+    
+}
+
+.parte2 span{
+    color: #1a73e8;
+    font-family: var(--font-roboto);
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/*----PARTE 3-----*/
+
+.parte3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.parte3 p{
+    margin-left: 24px;
+    font-family: var(--font-roboto);
+    color: #1a73e8;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.parte3 p:hover{
+    background-color: rgba(128, 128, 128, 0.038);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.048);
+}
+
+.parte3 button{
+    font-size: .875rem;
+    font-weight: 500;
+    text-transform: none;
+    margin-right: 24px;
+    padding: 8px 30px;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: var(--font-roboto);
+    background: #1a73e8;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.parte3 button:hover{
+    background-color: #176ad6;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.589);
+}
+
+/*-------------ABAIXO---------------*/
+.abaixo {
+    display: flex;
+    justify-content: space-between;
+    width: 438px;
+    margin-top: 17px;
+}
+
+.abaixo .ab-text{
+    display: flex;
+    margin-right: 5px;
+    font-family: var(--font-roboto);
+    color: #8a8b8d;
+    font-size: 13px;
+}
+
+.abaixo .ab-text p + p{
+    margin-left: 20px;
+}
+
+.abaixo #sel {
+    outline: none;
+    border: none;
+    font-family: var(--font-roboto);
+    color: #8a8b8d;
+    font-size: 13px;
+    min-width: 30%;
+    width: 20%;
+
+}
+
+.abaixo #sel option{
+    line-height: 200px;
+}
