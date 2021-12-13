@@ -2,4 +2,6 @@
  
 <img src="img/page-google-img.jpg" alt="">
 
-<p style="color: aqua;">Testando a bordar pra ver se pega ou não</p>
+    <div>
+        <p style="color: aqua;">Testando a bordar pra ver se pega ou não</p>
+    </div>
