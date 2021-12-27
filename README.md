@@ -1,4 +1,4 @@
-<h1 style="border-left: 2px solid red; padding-left: 14px;">Sobre o projeto</h1>
+# Sobre o projeto
 
 ## O projeto consiste em uma cópia da página de login do Google, tentando ao máximo replicar também todos os efeitos e animações!
 
